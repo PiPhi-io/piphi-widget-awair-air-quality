@@ -8,7 +8,7 @@ test("package identity and integration linkage are stable", () => {
   assert.deepEqual(source.identity, {
     publisher_id: "io.piphi",
     package_id: "awair-air-quality",
-    version: "0.1.14",
+    version: "0.1.15",
   });
   assert.equal(source.owning_integration_id, "awair-element-local-api");
   assert.deepEqual(source.recommended_for_integrations, ["awair-element-local-api"]);
